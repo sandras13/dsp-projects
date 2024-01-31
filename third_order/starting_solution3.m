@@ -55,7 +55,6 @@ figure
 plot(www,(abs(h)-1./www),'r','LineWidth',3)
 grid  
 
-
 faza=unwrap(angle(h));
 faza_id=-pi/2-0.5*www;
 figure
