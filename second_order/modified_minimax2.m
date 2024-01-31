@@ -1,9 +1,7 @@
 clear all
 close all
 
-b = [0.864973266511447   0.726541496771591   0.080807098142330]
-p =  -0.658920874428452
-wn = [0.001 1.67761 2.62951 3.01279 3.13845]
+% load b, p, wn from starting_solution
 
 polovi = [1 p]'
 a = poly(polovi)
