@@ -1,15 +1,9 @@
 clear all
 close all
 
-teta0 = 0.6605
-teta1 = 2.2605
-teta2 = 2.7305
-teta3 = 3.105
-
 % The error is set to zero at 2N distinct frequency points:
 % wn = pi * [1 - 0.8*exp((-1.5*(k-1)*pi)/(2*N - 1))]
 
-wn=[teta0; teta1; teta2; teta3]
 syms b0 b1 b2 p
 j=sqrt(-1)
 
