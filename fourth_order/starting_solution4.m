@@ -1,83 +1,9 @@
 clear all
 close all
 
-% teta0 = 0.6585
-% teta1 = 1.4144
-% teta2 = 2.0584
-% teta3 = 2.4890
-% teta4 = 2.8370
-% teta5 = 3.036
-% teta6 = 3.1078
-% teta7 = 3.1356
-% 
-% teta0 = 0.6
-% teta1 = 1.41
-% teta2 = 2.04
-% teta3 = 2.4
-% teta4 = 2.8
-% teta5 = 3.0
-% teta6 = 3.1
-% teta7 = 3.13
+% The error is set to zero at 2N distinct frequency points:
+% wn = pi * [1 - 0.8*exp((-1.5*(k-1)*pi)/(2*N - 1))]
 
-% 180 greska
-% teta0 = 0.6
-% teta1 = 1.41
-% teta2 = 2.041
-% teta3 = 2.4
-% teta4 = 2.8
-% teta5 = 3.0
-% teta6 = 3.0998
-% teta7 = 3.13
-
-% teta0 = 0.6
-% teta1 = 1.41
-% teta2 = 2.041
-% teta3 = 2.42
-% teta4 = 2.8
-% teta5 = 3.0
-% teta6 = 3.0589
-% teta7 = 3.13
-
-% % 90 stepeni greska
-% teta0 = 0.6
-% teta1 = 1.41
-% teta2 = 2.041
-% teta3 = 2.42
-% teta4 = 2.8
-% teta5 = 2.95
-% teta6 = 3.0589
-% teta7 = 3.13
-% 
-teta0 = 0.6
-teta1 = 1.2
-teta2 = 1.75
-teta3 = 2.408
-teta4 = 2.85
-teta5 = 3.048
-teta6 = 3.10
-teta7 = 3.13
-
-% teta0 = 0.6
-% teta1 = 1.2
-% teta2 = 1.75
-% teta3 = 2.408
-% teta4 = 2.845
-% teta5 = 3.048
-% teta6 = 3.10
-% teta7 = 3.13
-% 
-% 
-% teta0 = 0.6
-% teta1 = 1.2
-% teta2 = 1.757
-% teta3 = 2.40
-% teta4 = 2.8
-% teta5 = 2.95
-% teta6 = 3.05
-% teta7 = 3.13
-
-
-wn=[teta0; teta1; teta2; teta3; teta4; teta5; teta6; teta7]
 syms b0 b1 b2 b3 b4 p1 p2 p3
 
 for i=1:8
