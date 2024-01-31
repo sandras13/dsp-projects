@@ -1,22 +1,9 @@
 clear all
 close all
 
-% teta0 = 0.8072
-% teta1 = 1.62165
-% teta2 = 2.3848
-% teta3 = 2.7884
-% teta4 = 3.00989
-% teta5 = 3.13
+% The error is set to zero at 2N distinct frequency points:
+% wn = pi * [1 - 0.8*exp((-1.5*(k-1)*pi)/(2*N - 1))]
 
-teta0 = 0.8072
-teta1 = 1.62165
-teta2 = 2.3848
-teta3 = 2.7884
-teta4 = 3.0089
-teta5 = 3.13
-
-
-wn=[teta0; teta1; teta2; teta3; teta4; teta5]
 syms b0 b1 b2 b3 p1 p2
 
 for i=1:6
