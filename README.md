@@ -11,5 +11,7 @@ On average, all proposed filters exhibit a group delay of 0.5 samples, making th
 For an integrator of the order N there are 2^(2N) solutions with identical equiripple magnitude errors. The selected proposed integrator is the one with the smallest phase error.
 
 Below are the comparisons of our filters with the current literature:
+
 ![Relative magnitude error](comparison/relative_magnitude_error.jpg)
+
 ![Relative phase error](comparison/relative_phase_error.jpg)
