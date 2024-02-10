@@ -10,4 +10,6 @@ It's worth highlighting that the proposed third-order integrator outperforms the
 On average, all proposed filters exhibit a group delay of 0.5 samples, making them favorable for real-time system applications. Among these designs, the proposed fourth-order integrator demonstrates significantly lower magnitude and phase errors compared to known solutions.
 For an integrator of the order N there are 2^(2N) solutions with identical equiripple magnitude errors. The selected proposed integrator is the one with the smallest phase error.
 
-![My animated logo](comparison/relative_magnitude_error.jpg)
+Below are the comparisons of our filters with the current literature:
+![Relative magnitude error](comparison/relative_magnitude_error.jpg)
+![Relative phase error](comparison/relative_phase_error.jpg)
