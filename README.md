@@ -8,4 +8,6 @@ The resulting filters demonstrate remarkable performance, surpassing other repor
 It's worth highlighting that the proposed third-order integrator outperforms the fourth-order integrators used for comparison.
 
 On average, all proposed filters exhibit a group delay of 0.5 samples, making them favorable for real-time system applications. Among these designs, the proposed fourth-order integrator demonstrates significantly lower magnitude and phase errors compared to known solutions.
-For an integrator of the order N there are 2^(2N) solutions with identical equiripple magnitude errors. The selected proposed integrator is the one with the smallest phase error. 
+For an integrator of the order N there are 2^(2N) solutions with identical equiripple magnitude errors. The selected proposed integrator is the one with the smallest phase error.
+
+![Relative maginude error]([relative/path/in/repository/to/image.svg](https://github.com/sandras13/integrator/blob/main/comparison/relative_magnitude_error.jpg))
