@@ -2,6 +2,7 @@ clear all
 close all
 
 % load b, p, wn from starting_solution
+load N4_START_SOL
 
 polovi = [1 p]'
 
