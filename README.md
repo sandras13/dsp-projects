@@ -25,6 +25,6 @@ The error signal which is added to the ideal magnitude or phase mimics the one w
 
 We have concluded that it is more important to have a smaller phase error than a small amplitude error.
 
-# Paralel all-pass diferentiator corrector
+# Parallel all-pass diferentiator corrector
 
-Starting from a digital diferentiator with equiripple magnitude error, we have made a phase corrector with paralel all-pass branches. These correctors were made with orders N = 1, 2, 3 
+Beginning with a first-order digital differentiator featuring equiripple magnitude error, we have developed a phase corrector utilizing parallel branches of all-pass filters. The outcomes from these branches are aggregated. These correction components were constructed with orders of N = 1, 2, and 3.
